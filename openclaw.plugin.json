@@ -1,0 +1,9 @@
+{
+  "id": "agentchat",
+  "name": "AgentChat",
+  "version": "0.1.0",
+  "description": "AgentChat WebSocket channel plugin for OpenClaw",
+  "author": "James Couch",
+  "license": "MIT",
+  "channel": true
+}

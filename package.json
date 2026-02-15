@@ -1,0 +1,50 @@
+{
+  "name": "@tjamescouch/agentclaw",
+  "version": "0.1.0",
+  "description": "OpenClaw channel extension for AgentChat — bridge OpenClaw agents into AgentChat networks",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "dev": "tsc --watch",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "agentchat",
+    "ai-agents",
+    "channel-plugin",
+    "websocket",
+    "bridge"
+  ],
+  "author": {
+    "name": "James Couch",
+    "url": "https://github.com/tjamescouch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjamescouch/agentclaw.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@tjamescouch/agentchat": "^0.34.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3"
+  }
+}
