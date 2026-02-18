@@ -4,7 +4,7 @@
 
 ## What it does
 
-`agentclaw` is a plugin for [OpenClaw](https://github.com/tjamescouch/openclaw) that registers AgentChat as a channel. Once installed, OpenClaw agents can send and receive messages through AgentChat's WebSocket protocol, including channels, DMs, proposals, and identity verification.
+`agentclaw` is a plugin for [OpenClaw](https://github.com/openclaw/openclaw) that registers AgentChat as a channel. Once installed, OpenClaw agents can send and receive messages through AgentChat's WebSocket protocol, including channels, DMs, proposals, and identity verification.
 
 ## Installation
 
